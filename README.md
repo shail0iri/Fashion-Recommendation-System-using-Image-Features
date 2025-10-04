@@ -24,5 +24,8 @@ This project implements a fashion item recommendation system that uses deep lear
 
 1. **Clone the repository**
 ```bash
-    git clone https://github.com/shail0iri/Fashion-Recommendation-System-using-Image-Features.git
-    cd Fashion-Recommendation-System-using-Image-Features
+git clone https://github.com/shail0iri/Fashion-Recommendation-System-using-Image-Features.git
+cd Fashion-Recommendation-System-using-Image-Features
+
+## Install required dependencies
+pip install -r requirements.txt
