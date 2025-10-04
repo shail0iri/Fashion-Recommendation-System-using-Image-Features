@@ -52,28 +52,28 @@ similar_items = recommender.get_similar_items(image_path, top_k=5)
 
 🔧 Configuration
 The system can be configured through:
-Model Selection: Choose between different pre-trained models
-Similarity Metrics: Cosine similarity, Euclidean distance, etc.
-Top-K Recommendations: Number of similar items to display
-Feature Dimensions: Adjust feature vector size
 
-**🧠 Methodology**
+1. Model Selection: Choose between different pre-trained models
+2. Similarity Metrics: Cosine similarity, Euclidean distance, etc.
+3. Top-K Recommendations: Number of similar items to display
+4. Feature Dimensions: Adjust feature vector size
+
+🧠 Methodology
 Technical Approach
-Feature Extraction:
-Use pre-trained CNN models (VGG16, ResNet50).
-Extract features from intermediate layers.
-Create feature vectors for each image.
+1. Feature Extraction:
+   Use pre-trained CNN models (VGG16, ResNet50)
+   Extract features from intermediate layers
+   Create feature vectors for each image
 
-**Similarity Calculation:**
-Compute distance between feature vectors.
-Use cosine similarity for robust comparisons.
-Rank items by similarity scores.
+2. Similarity Calculation:
+   Compute distance between feature vectors
+   Use cosine similarity for robust comparisons
+   Rank items by similarity scores
 
-#Recommendation Engine:
-
-Find top-K most similar items.
-Filter by category if needed.
-Return ranked recommendations.
+3. Recommendation Engine:
+   Find top-K most similar items
+   Filter by category if needed
+   Return ranked recommendations
 
 📊 Results
 The system provides:
@@ -98,6 +98,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Project: Fashion Recommendation System using Image Features.
 🙏 Acknowledgments:
 Pre-trained models from TensorFlow/Keras.
+
 
 
 
