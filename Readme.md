@@ -35,30 +35,27 @@ pip install -r requirements.txt
 Required Dependencies
 ```
 
-🚀 Usage
-Running the Application
-Start the Streamlit app:
+## 🚀 Usage
 
-bash
-streamlit run app.py
-Access the web interface:
+### Using the Recommendation System
 
-Open your browser and go to http://localhost:8501
-
-Upload a fashion image
-View similar recommendations
-Using the Recommendation System
-
+```python
 # Example usage in code
 from recommendation_system import FashionRecommender
 
-## Initialize the recommender
+# Initialize the recommender
 recommender = FashionRecommender()
 
-Model Selection: Choose between different pre-trained models.
+# Get similar items
+similar_items = recommender.get_similar_items(image_path, top_k=5)
+```
+
+🔧 Configuration
+The system can be configured through:
+Model Selection: Choose between different pre-trained models
 Similarity Metrics: Cosine similarity, Euclidean distance, etc.
-Top-K Recommendations: Number of similar items to display.
-Feature Dimensions: Adjust feature vector size.
+Top-K Recommendations: Number of similar items to display
+Feature Dimensions: Adjust feature vector size
 
 **🧠 Methodology**
 Technical Approach
@@ -101,6 +98,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Project: Fashion Recommendation System using Image Features.
 🙏 Acknowledgments:
 Pre-trained models from TensorFlow/Keras.
+
 
 
 
