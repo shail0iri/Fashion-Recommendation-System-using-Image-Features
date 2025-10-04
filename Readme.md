@@ -77,19 +77,19 @@ Technical Approach
 
 📊 Results
 1. The system provides:
-   -Visual similarity-based recommendations.
-   -Multiple similar item suggestions.
-   -Confidence scores for each recommendation.
-   -Fast inference time for real-time usage.
+   - Visual similarity-based recommendations.
+   - Multiple similar item suggestions.
+   - Confidence scores for each recommendation.
+   - Fast inference time for real-time usage.
 
 🤝 Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues for improvements.
 
 Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature).
-Commit your changes (git commit -m 'Add some AmazingFeature').
-Push to the branch (git push origin feature/AmazingFeature).
-Open a Pull Request.
+- Create your feature branch (git checkout -b feature/AmazingFeature).
+- Commit your changes (git commit -m 'Add some AmazingFeature').
+- Push to the branch (git push origin feature/AmazingFeature).
+- Open a Pull Request.
 
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -97,6 +97,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Project: Fashion Recommendation System using Image Features.
 🙏 Acknowledgments:
 Pre-trained models from TensorFlow/Keras.
+
 
 
 
