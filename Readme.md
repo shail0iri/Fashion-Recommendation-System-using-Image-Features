@@ -61,27 +61,27 @@ The system can be configured through:
 🧠 Methodology
 Technical Approach
 1. Feature Extraction:
-   Use pre-trained CNN models (VGG16, ResNet50)
-   Extract features from intermediate layers
-   Create feature vectors for each image
+  - Use pre-trained CNN models (VGG16, ResNet50)
+  - Extract features from intermediate layers
+  - Create feature vectors for each image
 
 2. Similarity Calculation:
-   Compute distance between feature vectors
-   Use cosine similarity for robust comparisons
-   Rank items by similarity scores
+   -Compute distance between feature vectors
+  - Use cosine similarity for robust comparisons
+   -Rank items by similarity scores
 
 3. Recommendation Engine:
-   Find top-K most similar items
-   Filter by category if needed
-   Return ranked recommendations
+  - Find top-K most similar items
+  - Filter by category if needed
+  - Return ranked recommendations
 
 📊 Results
 The system provides:
 
-Visual similarity-based recommendations.
-Multiple similar item suggestions.
-Confidence scores for each recommendation.
-Fast inference time for real-time usage.
+-Visual similarity-based recommendations.
+-Multiple similar item suggestions.
+-Confidence scores for each recommendation.
+-Fast inference time for real-time usage.
 
 🤝 Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues for improvements.
@@ -98,6 +98,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Project: Fashion Recommendation System using Image Features.
 🙏 Acknowledgments:
 Pre-trained models from TensorFlow/Keras.
+
 
 
 
