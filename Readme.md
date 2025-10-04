@@ -52,8 +52,9 @@ Using the Recommendation System
 # Example usage in code
 from recommendation_system import FashionRecommender
 
-# Initialize the recommender
+## Initialize the recommender
 recommender = FashionRecommender()
+
 Model Selection: Choose between different pre-trained models.
 Similarity Metrics: Cosine similarity, Euclidean distance, etc.
 Top-K Recommendations: Number of similar items to display.
@@ -100,6 +101,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Project: Fashion Recommendation System using Image Features.
 🙏 Acknowledgments:
 Pre-trained models from TensorFlow/Keras.
+
 
 
 
