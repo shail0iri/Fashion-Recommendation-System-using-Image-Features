@@ -54,51 +54,52 @@ from recommendation_system import FashionRecommender
 
 # Initialize the recommender
 recommender = FashionRecommender()
-Model Selection: Choose between different pre-trained models
+Model Selection: Choose between different pre-trained models.
 Similarity Metrics: Cosine similarity, Euclidean distance, etc.
-Top-K Recommendations: Number of similar items to display
-Feature Dimensions: Adjust feature vector size
+Top-K Recommendations: Number of similar items to display.
+Feature Dimensions: Adjust feature vector size.
 
 #🧠 Methodology
 Technical Approach
 Feature Extraction:
 
-Use pre-trained CNN models (VGG16, ResNet50)
-Extract features from intermediate layers
-Create feature vectors for each image
+Use pre-trained CNN models (VGG16, ResNet50).
+Extract features from intermediate layers.
+Create feature vectors for each image.
 
 #Similarity Calculation:
-Compute distance between feature vectors
-Use cosine similarity for robust comparisons
-Rank items by similarity scores
+Compute distance between feature vectors.
+Use cosine similarity for robust comparisons.
+Rank items by similarity scores.
 
 #Recommendation Engine:
 
-Find top-K most similar items
-Filter by category if needed
-Return ranked recommendations
+Find top-K most similar items.
+Filter by category if needed.
+Return ranked recommendations.
 
 📊 Results
 The system provides:
 
-Visual similarity-based recommendations
-Multiple similar item suggestions
-Confidence scores for each recommendation
-Fast inference time for real-time usage
+Visual similarity-based recommendations.
+Multiple similar item suggestions.
+Confidence scores for each recommendation.
+Fast inference time for real-time usage.
 
 🤝 Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues for improvements.
 
 Fork the repository
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add some AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+Create your feature branch (git checkout -b feature/AmazingFeature).
+Commit your changes (git commit -m 'Add some AmazingFeature').
+Push to the branch (git push origin feature/AmazingFeature).
+Open a Pull Request.
 
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Project: Fashion Recommendation System using Image Features
-🙏 Acknowledgments
-Pre-trained models from TensorFlow/Keras
+Project: Fashion Recommendation System using Image Features.
+🙏 Acknowledgments:
+Pre-trained models from TensorFlow/Keras.
+
 
