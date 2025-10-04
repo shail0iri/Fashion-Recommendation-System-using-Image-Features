@@ -59,15 +59,14 @@ Similarity Metrics: Cosine similarity, Euclidean distance, etc.
 Top-K Recommendations: Number of similar items to display.
 Feature Dimensions: Adjust feature vector size.
 
-#🧠 Methodology
+**🧠 Methodology**
 Technical Approach
 Feature Extraction:
-
 Use pre-trained CNN models (VGG16, ResNet50).
 Extract features from intermediate layers.
 Create feature vectors for each image.
 
-#Similarity Calculation:
+**Similarity Calculation:**
 Compute distance between feature vectors.
 Use cosine similarity for robust comparisons.
 Rank items by similarity scores.
@@ -101,5 +100,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Project: Fashion Recommendation System using Image Features.
 🙏 Acknowledgments:
 Pre-trained models from TensorFlow/Keras.
+
 
 
