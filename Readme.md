@@ -76,12 +76,11 @@ Technical Approach
   - Return ranked recommendations
 
 📊 Results
-The system provides:
-
--Visual similarity-based recommendations.
--Multiple similar item suggestions.
--Confidence scores for each recommendation.
--Fast inference time for real-time usage.
+1. The system provides:
+   -Visual similarity-based recommendations.
+   -Multiple similar item suggestions.
+   -Confidence scores for each recommendation.
+   -Fast inference time for real-time usage.
 
 🤝 Contributing
 Contributions are welcome! Please feel free to submit pull requests or open issues for improvements.
@@ -98,6 +97,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Project: Fashion Recommendation System using Image Features.
 🙏 Acknowledgments:
 Pre-trained models from TensorFlow/Keras.
+
 
 
 
