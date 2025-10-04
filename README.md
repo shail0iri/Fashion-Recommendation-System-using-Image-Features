@@ -28,4 +28,6 @@ git clone https://github.com/shail0iri/Fashion-Recommendation-System-using-Image
 cd Fashion-Recommendation-System-using-Image-Features
 
 ## Install required dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt '''
+
+TRD
